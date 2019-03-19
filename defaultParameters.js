@@ -3,4 +3,6 @@
 function greet(firstName = 'NA', petName = 'NA') {
     console.log(`Hello: ${firstName}, your pet's name is: ${petName}`)
 }
-greet('Batman'); //Fog Level: 10 and spark_level: 100
+greet('Batman'); //without a pet name the default is used
+
+greet('Dr Who', 'K9');
